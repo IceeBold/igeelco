@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IgelCo Shop - Home</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>IgelCo Shop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <a href="cart.html"><img src="cart-icon.png" alt="Cart"></a>
+        </div>
+        <!-- Search Bar -->
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search products...">
+            <button id="search-btn">Search</button>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <section class="hero">
+            <h2>Welcome to the IgelCo Shop</h2>
+            <p>Your favorite place for awesome products</p>
+            <a href="products.html" class="shop-btn">Shop Now</a>
+        </section>
+        
+        <section class="products">
+            <h3>Our Products</h3>
+            <div class="product-grid">
+                <!-- Products will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 IgelCo. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
+<main>
+    <section class="products">
+        <h3>Our Products</h3>
+        <div class="product-grid">
+            <!-- Products will be dynamically added here -->
+        </div>
+    </section>
+    <section class="cart">
+        <h3>Your Cart</h3>
+        <div class="cart-items">
+            <p>Your cart is empty.</p> <!-- Default message -->
+        </div>
+    </section>
+</main>
+

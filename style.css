@@ -1,0 +1,302 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0a74da;
+    font-family: 'Fredoka One', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.cart-icon img {
+    width: 30px;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Space above and below the search bar */
+}
+
+#search-input {
+    padding: 10px;
+    border-radius: 25px; /* Rounded edges */
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    font-family: 'Fredoka One', sans-serif; /* Fredoka One font */
+    width: 300px; /* Set a width for the search input */
+    margin-right: 10px; /* Space between input and button */
+}
+
+#search-btn {
+    padding: 10px 20px;
+    background-color: #0a74da;
+    color: white;
+    border: none;
+    border-radius: 25px; /* Rounded edges */
+    cursor: pointer;
+    font-family: 'Fredoka One', sans-serif; /* Fredoka One font */
+}
+
+#search-btn:hover {
+    background-color: #007acc;
+}
+
+.products {
+    text-align: center; /* Center the product section title */
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Product item styles */
+.product-item {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+}
+
+.product-item:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.product-item h4 {
+    font-family: 'Fredoka One', sans-serif;
+    margin: 10px 0;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0a74da;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0a74da;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: white;
+    transition: background-color 0.3s; /* Animation for header background */
+}
+
+header:hover {
+    background-color: #005bb5; /* Darker shade on hover */
+}
+
+header .logo h1 {
+    font-family: 'Fredoka One', sans-serif;
+    margin: 0;
+    transition: transform 0.3s; /* Animation for logo */
+}
+
+header .logo h1:hover {
+    transform: scale(1.1); /* Scale effect on hover */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    transition: color 0.3s; /* Animation for nav links */
+}
+
+header nav ul li a:hover {
+    color: #cce5ff; /* Lighter color on hover */
+}
+
+.cart-icon img {
+    width: 30px;
+    transition: transform 0.3s; /* Animation for cart icon */
+}
+
+.cart-icon img:hover {
+    transform: scale(1.2); /* Scale effect on hover */
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #0a74da, #00c6ff);
+    color: white;
+    transition: transform 0.3s; /* Animation for hero section */
+}
+
+.hero:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.hero h2 {
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+.shop-btn {
+    background-color: white;
+    color: #0a74da;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s; /* Animation for button */
+}
+
+.shop-btn:hover {
+    background-color: #0a74da;
+    color: white;
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #0a74da;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.cart-table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+.cart-table th, .cart-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    transition: background-color 0.3s; /* Animation for table rows */
+}
+
+.cart-table tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.cart-total {
+    margin-top: 20px;
+    text-align: right;
+}
+
+#checkout-btn {
+    background-color: #0a74da;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Animation for checkout button */
+}
+
+#checkout-btn:hover {
+    background-color: #007acc;
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between products */
+    padding: 20px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s; /* Animation for card */
+}
+
+.product-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.add-to-cart-btn {
+    background-color: #0a74da;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Animation for button */
+}
+
+.add-to-cart-btn:hover {
+    background-color: #007acc; /* Darker color on hover */
+}
+
+.cart {
+    margin-top: 40px;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.cart-item {
+    margin-bottom: 10px;
+}
+
